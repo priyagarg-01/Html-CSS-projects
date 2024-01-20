@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(194, 246, 246);
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10%;
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    /* text-align: right; */
+    width: 100%;
+    margin-right: 2rem;
+}
+
+nav ul li{
+    margin: 1rem;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.logo{
+   width: 6rem; 
+}
+
+.user-pic{
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+.side-menu{
+    position: absolute;
+    top: 11.5%;
+    right: 10%;
+    width: 17rem;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.side-menu.open-menu{
+    max-height: 400px;
+}
+
+.side{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img{
+    width: 4rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.user-profile h3{
+    font-weight: 700;
+    color: rgb(96, 96, 96);
+}
+
+.side hr{
+    border: 0;
+    height: 1.5px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 10px 0 10px;
+}
+
+.submenu-links{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.submenu-links img{
+    width: 2.3rem;
+    background-color: rgb(215, 215, 215);
+    border-radius: 50%;
+    margin: 7px;
+    padding: 5px;
+}
+
+.submenu-links:hover img{
+    background-color: rgb(183, 183, 183);
+}
+
+.submenu-links p{
+    width: 100%;
+    color: black;
+    margin-right:3px ;
+}
+
+.submenu-links:hover p{
+    font-weight: 600;
+}
+
+.submenu-links span{
+    font-size: 20px;
+    color: black;
+}
+.submenu-links:hover span{
+    transform: translateX(5px);
+}

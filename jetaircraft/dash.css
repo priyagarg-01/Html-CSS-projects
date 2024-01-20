@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    /* background: */
+}
+
+
+body::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    min-height: 150vh;
+    background: url("/images/milky-way-2695569_1280.jpg") no-repeat center/cover;
+    /* background:linear-gradient(45deg,rgb(3, 3, 60),rgb(70, 70, 255),rgb(242, 0, 255)); */
+    /* background: black; */
+    /* opacity: 8; */
+    z-index: -1;
+    top: 0;
+}
+
+.section1{
+    margin: 3rem auto;
+    width: 80%;
+    min-height:90vh ;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    /* border: 2px solid white; */
+    color: white;
+    padding: 3rem;
+    border-radius: 13px;
+}
+
+.part{
+    display: flex;
+}
+
+.box{
+    width: 45%;
+    height: 40vh;
+    margin: 1.5rem auto;
+    /* background-color: aqua; */
+    padding: 2rem;
+   
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ----------------------------Schedule----------------- */
+
+.schedule{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 20px;
+    border-radius: 13px;
+}
+
+.schedule p{
+    margin: 0.3rem;
+    padding: 2px;
+    font-size: 22px;
+    color: black;
+}
+
+.schedule p::before{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.schedule hr{
+    height: 2px;
+    border-radius: 5px;
+}
+
+/* ------------------------types------------------------- */
+
+.types{
+    padding: 10px 0px 0px 15px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 13px;
+}
+
+.type{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.type h3{
+    margin: 10px;
+}
+
+.type p{
+    margin: 10px;
+    font-size: 22px;
+    
+}
+
+/* --------------------RUL--------------- */
+
+.skill{
+    height: 400px;
+    width: 400px;
+    margin: 2rem;
+    position: relative;
+    top: 200;
+    display: flex;
+}
+
+.text{
+    margin-left:2rem ;
+    width: 20rem;
+    font-size: 20px;
+}
+
+.outer{
+    height: 160px;
+    width: 160px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    padding: 19px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15) , -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    
+}
+
+.inner{
+    height: 120px;
+    width: 120px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px  0px rgba(255, 255, 255, 1),
+    0.5px 0.5px  0px rgba(0, 0, 0, 0.15),
+    0px 12px  10px -10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#number{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 19px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards ;
+}
+
+svg{
+    position: absolute;
+    top: 69.5vh;
+    left: 19.7vh;
+}
+
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 200;
+    }
+
+    0%{
+        stroke-dashoffset:472 ;
+    }
+}
+
+/* ---------------------feedback------------------- */
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    /* background-color: red; */
+    height: 40vh;
+    
+}
+
+.feed-item{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 13px;
+    margin: 0.4rem;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    color: black;
+    gap: 10px;
+
+}
+.pimg{
+    height: 32px;
+    width: 32px;
+    background-color: black;
+    border-radius: 50%;
+    object-fit: cover;
+    color: black;
+}
+
+.feed-item p{
+    padding-top: 5px;
+    width: max-content;
+    height: 3rem;
+    text-align: left;
+    align-items: center;
+    line-height: 20px;
+}
+
+/* ------------------------plane------------------------ */
+
+
+
+.plane1{
+    width: 10rem;
+    top:10px;
+    left: 0;
+    position:absolute;
+    transition: air 2s linear infinite ;
+    z-index: 99;
+}
+
+@keyframes air {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(1000px);
+    }
+
+    
+}

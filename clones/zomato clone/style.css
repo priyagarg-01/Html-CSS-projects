@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    display: block;
+    height: 5rem;
+    position: static;
+    /* border-bottom: 0.5px solid rgba(220, 219, 219, 0.918); */
+   
+}
+
+/* -------------------NAVBAR----------------- */
+.navbar{
+display:flex;
+width: 75%;
+margin: 0px auto;
+justify-content: space-between;
+align-items: center;
+top: 0px;
+position: relative;
+max-height: 80px;
+font-family: 'Raleway', sans-serif;
+color: grey;
+
+}
+.logo{
+   width:140px;
+   height: 30px;
+}
+
+.logo img{
+    width: max-content;
+    height: 90%;
+    
+}
+
+.navsep{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7rem 0rem;
+    flex-wrap: nowrap;
+    opacity: 1;
+}
+
+#searchbox{
+    padding-right: 4rem;
+}
+
+/* ----------------Searchbox and location detector------------------ */
+
+.detectionbox{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 700px;
+    border:1px solid rgb(232, 232, 232);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    padding: 17px 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.navsep li{
+    text-decoration: none;
+    padding: 8px 0px;
+    width: max-content;
+    padding-right: 1.5rem;
+}
+
+.navsep li a{
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 150;
+}
+.location{
+    width: 33.5%;
+    padding-left: 0.5rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.location i{
+    width: 22px;
+    height: 22px;
+    padding-right: 0.5rem;
+}
+
+.location input{
+    width: 186px;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+}
+
+#divider{
+    height: 1.2rem;
+    width: 0rem;
+    border: 0.05px solid rgb(180, 180, 180);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.search i{
+    padding: 0rem 1rem;
+}
+.search input{
+    border: none;
+    font-size: 1rem;
+    /* color:antiquewhite; */
+}
+
+
+
+/* ---------------Main section ----------------- */
+#sec1{
+    border-bottom: 0.03rem solid rgb(235, 233, 233);
+}
+
+.tab-options{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    
+}
+
+.tab{
+    height: 98px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+
+}
+
+.circle{
+    height: 4rem;
+    width:4rem;
+    border-radius: 50%;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab img{
+    height:49px;
+    padding: 0.5rem;
+}
+
+.tab p{
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+
+.tab p a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navigation ----- */
+nav {
+    background-color: rgb(143, 6, 6);
+    padding: 7px 8px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+li {
+    /* font-family: 'Nanum Pen Script', cursive; */
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Julee', cursive; */
+    /* font-family: 'Irish Grover', cursive; */
+    
+    font-family: 'Yeon Sung', cursive;
+    margin: 0px 1px;
+    list-style: none;
+    padding: 5px 30px;
+    font-size: 1.3rem;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 6px;
+}
+
+a:hover{
+    color: black;
+}
+
+/* INTROSECTION--------- */
+
+#introsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/static/carts-new-13.jpg') center/cover no-repeat;
+    height: 600px;
+    background-color: yellow;
+    font-weight: 600px;
+    color: rgb(241, 244, 246);
+    /* font-family: 'Merienda', cursive; */
+    font-family: 'Nanum Brush Script', cursive;
+    /* font-family: 'Rock Salt', cursive; */
+}
+
+#introsection div {
+    text-shadow: 2px 2px rgb(72, 70, 70);
+    font-size: 6rem;
+}
+
+#introsection div.small {
+    font-size: 3rem;
+}
+
+/* MISSION SECTION------- */
+
+/* #mission::before{
+    content: "";
+    position: absolute;
+    background: url('/static/m2.png') no-repeat center center/cover;
+    z-index: -1;
+    height: 300px;
+    width: 100%;
+    opacity: 0.8;
+
+} */
+
+#mission{
+    background-color: #100d0a;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#mission h3{
+    font-family: 'Mansalva', cursive;
+    padding-right: 53px;
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 2px 3px 2px aliceblue;
+}
+
+
+.card{
+    border: 2px solid red;
+    display: inline-block;
+    border-radius: 9px;
+    width: 20%;
+    margin: 12px 21px;
+    height: 220px;
+    padding-right: 11px;
+    font-size: 1rem;
+    /* font-family: 'Julee', cursive;  */
+    /* font-family: 'Irish Grover', cursive; */
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Merienda', cursive; */
+    font-family: 'Mansalva', cursive;
+    box-shadow: 2px 3px 13px 2px aliceblue;
+
+}
+
+.card h4{
+    padding: 10px;
+    margin: 8px;
+    text-align: center;
+}
+
+.card p{
+    padding: 14px;
+}
+
+.card:hover{
+    height: 300px;
+    font-size: 1.4rem;
+    width:24%;
+}
+
+
+/* SPONSER SECTION------------- */
+
+#SponserSection {
+    height: 300px;
+    display: block;
+    width: 100%;
+    background-color: rgba(253, 227, 227, 0.403);
+    margin: auto;
+
+}
+
+#SponserSection h3{
+    display: block;
+    font-family: 'Mansalva', cursive;
+    text-align: center;
+    padding-top: 12px;
+    font-size:2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card1{
+    display: inline-block;
+    margin: 12px;
+    padding: 8px;
+}
+
+.card1 img{
+    height: 150px;
+}
+
+/* FOOTER----------- */
+
+#footer {
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-color: rgb(8, 8, 8);
+}
+
+#footer h4{
+    font-size: 1.3rem;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

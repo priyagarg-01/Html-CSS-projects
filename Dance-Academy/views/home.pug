@@ -1,0 +1,38 @@
+extends base.pug
+
+block scripts
+    script(src='../static/index.js')
+
+block style 
+    style 
+        include ../static/style.css    
+
+block content
+        Section#introsection
+            div Welcome to Dance Classes 
+            div.small Lets Dance Together
+
+        Section#mission 
+            h3 OUR MISSIONS
+            div.card
+                h4  Best Performance 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi fugit maxime? Consequuntur optio porro ab quisquam nam ex quas voluptas. facilis impedit libero. 
+            div.card
+                h4  Teaching Skills 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptas. Ad quos ullam exercitationem reprehenderit nostrum facilis impedit libero. 
+            div.card
+                h4  Expert Skills  
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde in cumque, excepturi provident itaque omnis vero expedita! Molestias sed iusto expedita quaerat recusandae.
+              
+        Section#SponserSection
+            h3 Our Sponsers
+            .container 
+                div.card1
+                    img(src='./static/img/dom.png', alt="card1")
+                div.card1
+                    img(src="./static/img/fanta.png", alt="card1")
+                div.card1
+                    img(src="./static/img/hut.png", alt="card1")
+                div.card1
+                    img(src="./static/img/st.png", alt="card1")
+ 

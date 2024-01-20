@@ -1,0 +1,265 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/* Custom Variables */
+:root {
+    --nav-height: 45px;
+    --f:'Bree Serif', serif;
+    --f1:'Signika', sans-serif;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+/* Navbar: Logo and img */
+#logo {
+    margin: 8px 10px;
+}
+
+#logo img {
+    height: 44px;
+    margin: 2px 22px;
+}
+
+/* Navbar: list items and anchor tags */
+#navbar {
+    position: absolute;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    display: block;
+    font-size: 1.2rem;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    color: white;
+    margin: 2px 3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: var(--f);
+    
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--f1);
+    position: relative;
+    
+}
+
+#home::before{
+    content: "";
+    background: url('../images/food.jpg') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    margin: 2px;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+/* Services Section */
+
+.services-container h1{
+    font-family: var(--f);
+    padding: 2px;
+    margin: 16px;
+}
+
+#services{
+    display: flex;
+    margin: 34px;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--f1);
+    
+}
+
+#services .box{
+    border: 2px solid rgb(114, 27, 27);
+    padding: 20px;
+    margin:6px;
+    border-radius: 23px;
+    background-color:rgb(250 250 242);
+    width:30%;
+    
+}
+#services .box img{ 
+    display: block;
+    height: 142px;
+    margin: auto; 
+}
+
+#services .box p{
+    text-align: center;
+}
+
+
+/* Clients-Section */
+.Clients-section{
+    position: relative;
+    height: 300px;
+}
+
+.Clients-section::before{
+    content: "";
+    background: url('../images/f2.jpg') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.clients-items{
+    padding:8px ;
+    margin: 4px;
+}
+
+
+#clients img{
+    height: 100px;
+  
+}
+
+/* Contact Us form */
+#Contactus{
+    position: relative;
+    /* margin-top: 20px; */
+    height: 550px;
+}
+
+#Contactus::before{
+    content: "";
+    background: url('../images/cont.jpg') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.6rem;
+}
+
+.contact-box form{
+    width: 40%;
+}
+
+.contact-box label{
+    font-size: 1.1rem;
+    font-family: var(--f1);
+}
+
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-family: var(--f1);
+    border-radius: 9px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 120px;
+}
+/* Utility Classes */
+
+.head{
+    font-family: var(--f);
+    padding: 2px;
+    margin: 16px;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-size: 2rem;
+    padding: 12px;
+}
+
+.btn{
+    color:white;
+    font-size: 1.3rem;
+    background-color: #a93131;
+    border:3px solid white;
+    border-radius:5px ;
+    padding: 3px;
+    margin:8px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}

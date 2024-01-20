@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css" />
+  </head>
+  <body>
+    <img class="plane1" src="/images/—Pngtree—travel plane vector graphic_3792363.png" alt="">
+    <!-- <img class="plane" src="/images/Flying-Airplane-PNG-Transparent-HD-Photo.png" alt=""> -->
+    <div class="section1">
+      <div class="part">
+        <div class="box" id="maintainance">
+          <a href="#">
+            <h2>Maintainance Schedule</h2>
+            <div class="schedule">
+              <p>Indigo A123 at 12:00am</p>
+              <hr />
+              <p>Spicejet C213 at 12:15am</p>
+              <hr />
+              <p>Indigo V341 at 12:20am</p>
+              <hr />
+              <p>Indigo V542 at 1:20am</p>
+            </div>
+          </a>
+        </div>
+        <div class="box">
+          <a href="#">
+            <h2>Working Aircraft</h2>
+            <div class="types">
+              <div class="type">
+                <h3>COMPANY NAME</h3>
+              </div>
+              <div class="type">
+                <h3>NO OF AIRCRAFTS:</h3>
+                <p id="p1">14</p>
+              </div>
+              <div class="type">
+                <h3>AVG. FLIGHT HOURS:</h3>
+                <p id="p2">24000</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="part">
+        <div class="box">
+          <a href="#">
+            <h2>Remaining Useful Life</h2>
+            <div class="skill">
+              <div class="outer">
+                <div class="inner">
+                  <div id="number">65%</div>
+                </div>
+              </div>
+
+              <div class="text">
+                Unlocking the Future of Aircrafts.
+              </div>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+              width="160px"
+              height="160px"
+            >
+              <defs>
+                <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+              </defs>
+              <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="box">
+          <a href="#">
+            <h2>Feedback</h2>
+            <div class="feed">
+              <div class="feed-item">
+                <div class="pimg">
+                </div>
+                <p>It was my best experience till yet.</p>
+              </div>
+              <div class="feed-item">
+                <div class="pimg"></div>
+                <p>The staff was very helpful and cooperative. </p>
+              </div>
+            
+          </a>
+        </div>
+      </div>
+    </div>
+    
+
+    <script>
+      let num = document.getElementById("number");
+      let count = 0;
+      setInterval(() => {
+        if (count == 65) {
+          clearInterval();
+        } else {
+          count += 1;
+          num.innerHTML = count + "%";
+        }
+      }, 30);
+
+      
+        let id = document.getElementById("p1");
+        let count1 = 0;
+         setInterval(() => {
+           if (count1 == 48) {
+             clearInterval();
+           } else {
+             count1 += 1;
+             id.innerHTML = count1;
+           }
+         }, 40)
+
+
+        // let id1 = document.getElementById("p2");
+        // let count2 = 0;
+        //  setInterval(() => {
+        //    if (count2 == 24000) {
+        //      clearInterval();
+        //    } else {
+        //      count2 += 1;
+        //      id1.innerHTML = count2;
+        //    }
+        //  }, 40)
+
+    </script>
+  </body>
+</html>

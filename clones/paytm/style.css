@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Inter:wght@400;700;900;&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    /* overflow: hidden; */
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+/* Header and navbar  */
+
+header {
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.7px solid rgb(223, 223, 223);
+    box-shadow: 2px 2px 8px rgb(219, 219, 219);
+    background-color: white;
+}
+
+.logo {
+    width: 12rem;
+}
+
+.logo img {
+    width: 12rem;
+}
+
+ul,
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin: 1rem;
+    padding: 2px;
+}
+
+ul li {
+    list-style: none;
+    padding: 2px;
+    margin: 0px 2px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0rem 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.signup {
+    background-color: #00bdf2;
+    border-radius: 25px;
+    width: 6rem;
+    padding: 1px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.signup img {
+    margin: 1px;
+    padding: 1px;
+}
+
+.kyc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    box-shadow: inset 2px 2px 8px rgb(219, 219, 219);
+    /* background-color:rgb(247, 247, 247); */
+    background-image: linear-gradient(180deg, rgb(227, 227, 227), white);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*----------------- Section-1 Intro---------------- */
+
+.white {
+    background-color: white;
+}
+
+.sec {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 5rem 0rem;
+
+}
+
+.icon {
+    width: 5rem;
+    margin: 3rem 0rem;
+
+}
+
+.box h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+
+}
+
+.p {
+    margin: 0.5rem 0rem;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    margin: 2rem 0rem;
+    width: fit-content;
+    padding: 0.8rem 1.4rem;
+    border-radius: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.download a svg {
+    fill: white;
+    padding: 0px 4px;
+}
+
+.img_full {
+    margin-left: 15rem;
+    width: 524px;
+}
+
+/* ----------------Recharges and payments section------------- */
+
+.blue {
+    background-color: #00bdf2;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+}
+
+.sec1 {
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: left;
+
+}
+
+
+.heading {
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    padding: 2rem 0rem;
+    color: white;
+}
+
+
+
+.patches {
+    display: flex;
+    flex-direction: row;
+}
+
+.payments {
+    margin: 0.4rem 0.4rem 0rem 0.5rem;
+    cursor: pointer;
+    width: 7rem;
+    font-size: 1rem;
+    padding: 1.2rem;
+    width: 8rem;
+
+}
+
+.payments img {
+    width: 5rem;
+}
+
+.payments h6 {
+    width: fit-content;
+    font-size: 1rem;
+    margin: 3px;
+    padding: 1px;
+}
+
+.name p {
+    font-weight: 500;
+    padding: 3px;
+    font-size: 1rem;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.payments:hover {
+    border-radius: 13px;
+    background-color: #00afe3;
+
+}
+
+
+/* Section Book and Buy */
+
+.purple {
+    width: 100%;
+    background: #0f4a8a;
+    color: white;
+    padding: 2rem;
+}
+
+.Bookings {
+    margin: 0.4rem 0.4rem 0rem 0.5rem;
+    cursor: pointer;
+    width: 7rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 8rem;
+
+}
+
+.Bookings img {
+    width: 5rem;
+}
+
+.Bookings:hover {
+    border-radius: 13px;
+    background: #0d3e80;
+}
+
+.Bookings h6 {
+    width: fit-content;
+    font-size: 1rem;
+    margin: 3px;
+    padding: 1px;
+}
+
+/* section paytm instruments---------- */
+
+.one {
+    color: black;
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-weight: 900;
+    font-size: 48px;
+    /* line-height: 50px; */
+    margin: 4rem 2rem 0 0;
+}
+
+.one h4 {
+    margin: 2rem;
+}
+
+.white_box {
+    border-radius: 13px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1.4rem;
+}
+
+.sec4 {
+    width: 77%;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem 0rem;
+
+}
+
+.wallet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wallet h5 {
+    font-size: 1rem;
+    margin: 4px;
+    width: 5.4rem;
+}
+
+.icon {
+    width: 5rem;
+    margin: 3rem 0rem;
+
+}
+
+.box1 h1 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 24rem;
+    /* line-height: 65px; */
+
+}
+
+.p {
+    margin: 0.5rem 0rem;
+    padding: 3px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    margin: 2rem 0rem;
+    width: fit-content;
+    padding: 0.8rem 1.4rem;
+    border-radius: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.download a {
+    align-items: center;
+    height: 18px;
+}
+
+.download a svg {
+    fill: white;
+    padding: 0px 4px;
+
+}
+
+.img1_full {
+    justify-content: left;
+    width: 524px;
+}
+
+
+/* same sec-3 */
+.icon1 {
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+.icon1 img {
+    width: 10rem;
+    margin-bottom: 2rem;
+}
+
+
+/*---- sections paytm cards--- */
+.row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 1.2rem;
+    padding: 2rem;
+    height: 80vh;
+
+}
+
+.card_img {
+    width: 15rem;
+    margin: 3rem 0rem;
+
+    /* line-height: 50px; */
+}
+
+.card_img img {
+    width: 15rem;
+}
+
+.box2 h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 3px;
+    margin: 2px;
+
+}
+
+.p1 {
+    margin: 3px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pic {
+    padding: 1rem;
+    width: 20rem;
+    height: 15rem;
+}
+
+
+/* Financial services ,insurance */
+
+.height{
+    padding:0rem 2rem;
+}
+
+.heading1 {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    /* align-items: flex-; */
+    padding: 2rem 2rem;
+    color: black;
+    width: 100%;
+}
+
+.heading1 h1 {
+    text-align: left;
+    /* margin: 0px 1rem; */
+    margin-top: 4rem;
+   
+}
+
+.cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxer {
+    /* background-color: rgb(27, 86, 92); */
+    width: 35rem;
+    margin: 1rem;
+
+}
+
+.icon2 {
+    margin-bottom: 3rem;
+}
+
+.icon2 img {
+    width: 15rem;
+}
+
+.margin_bottom{
+    margin-bottom: 3rem;
+}
+
+.boxer p {
+    font-size: 40px;
+    font-weight: 900;
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.boxer .p {
+    font-size: 19px;
+    font-weight: 600;
+    width: 30rem;
+    margin-bottom: 2rem;
+}
+
+.boxer .p1{
+    font-size: 40px;
+    font-weight: 600;
+    width: 40rem;
+    margin-bottom: 1rem;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
+
+.img2_full {
+    display: flex;
+    width: 450px;
+    justify-content: right;
+}
+
+.finance{
+    margin-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+/* paytm money personal loan */
+
+.img_background{
+    width: 100%;
+    height: 587px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    
+}
+
+.pad{
+    padding: 5rem 0rem;
+}
+
+.icon3{
+    width: 10rem;
+}
+
+.icon3 img{
+    width: 10rem;
+    padding-bottom: 2rem;
+}
+
+.p2{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+/* business services */
+
+.grey{
+    background-color: #f5f7fa;
+}
+
+.grey_box{
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1.2rem;
+}
+
+.padding{
+    padding-left: 6rem;
+}
+
+

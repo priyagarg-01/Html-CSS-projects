@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styledelivery.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+                    alt="no image">
+            </div>
+            <ul class="navsep">
+                <li id="searchbox">
+                    <div class="detectionbox">
+                        <div class="location">
+                            <i class='location-icon'>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FF7E8B" width="20" height="20"
+                                    viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img"
+                                    class="sc-rbbb40-0 iRDDBk">
+                                    <title>location-fill</title>
+                                    <path
+                                        d="M10.2 0.42c-4.5 0-8.2 3.7-8.2 8.3 0 6.2 7.5 11.3 7.8 11.6 0.2 0.1 0.3 0.1 0.4 0.1s0.3 0 0.4-0.1c0.3-0.2 7.8-5.3 7.8-11.6 0.1-4.6-3.6-8.3-8.2-8.3zM10.2 11.42c-1.7 0-3-1.3-3-3s1.3-3 3-3c1.7 0 3 1.3 3 3s-1.3 3-3 3z">
+                                    </path>
+                                </svg>
+                            </i>
+                            <input placeholder="This is the location">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#4F4F4F" width="12" height="12"
+                                viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img"
+                                class="sc-rbbb40-0 ezrcri">
+                                <title>down-triangle</title>
+                                <path d="M20 5.42l-10 10-10-10h20z"></path>
+                            </svg>
+                        </div>
+                        <div id="divider"></div>
+                        <div class="search">
+                            <div class="searchicon">
+                                <i class="sc-rbbb40-1 iFnyeo" color="#828282" size="18"><svg
+                                        xmlns="http://www.w3.org/2000/svg" fill="#828282" width="18" height="18"
+                                        viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img"
+                                        class="sc-rbbb40-0 iwHbVQ">
+                                        <title>Search</title>
+                                        <path
+                                            d="M19.78 19.12l-3.88-3.9c1.28-1.6 2.080-3.6 2.080-5.8 0-5-3.98-9-8.98-9s-9 4-9 9c0 5 4 9 9 9 2.2 0 4.2-0.8 5.8-2.1l3.88 3.9c0.1 0.1 0.3 0.2 0.5 0.2s0.4-0.1 0.5-0.2c0.4-0.3 0.4-0.8 0.1-1.1zM1.5 9.42c0-4.1 3.4-7.5 7.5-7.5s7.48 3.4 7.48 7.5-3.38 7.5-7.48 7.5c-4.1 0-7.5-3.4-7.5-7.5z">
+                                        </path>
+                                    </svg></i>
+                            </div>
+                            <input placeholder="This is search bar">
+                        </div>
+                    </div>
+                </li>
+                <li><a>Log in</a></li>
+                <li><a>Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------ Section  Headings-------->
+    <section id="sec1">
+        <div class="tab-options">
+            <div class="tab" id="c1">
+                <div class="circle">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp"
+                        alt="img1">
+                </div>
+                <p><a href="Delivery.html">Delivery</a></p>
+            </div>
+            <div class="tab" id="c2">
+                <div class="circle">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png"
+                        alt="img1">
+                </div>
+                <p><a href="dining.html">Dining out</a></p>
+            </div>
+            <div class="tab" id="c3">
+                <div class="circle">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png"
+                        alt="img1">
+                </div>
+                <p><a href="/Nightlife.html">Nightlife</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters rating and cuisines section -->
+    <section id="sec2">
+        <div class="sec2_box">
+            <div class="sec2_button" id="s2_1">
+                <img src="https://img.icons8.com/?size=1x&id=21637&format=png" alt="filter">
+                <p>Filters</p>
+            </div>
+            <div class="sec2_button">
+                <p>Rating: 4.0+</p>
+            </div>
+            <div class="sec2_button" id="sec2_2">
+                <p>Cusines</p>
+                <img src="https://img.icons8.com/?size=1x&id=40021&format=png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Food items section -->
+    <section id="food_sec">
+        <div class="sec">
+            <div class="heading">
+                <h1>Inspiration for your first order</h1>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
+                        alt="">
+                    <h4>Biryani</h4>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
+                        alt="">
+                    <h4>Pizza</h4>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
+                        alt="">
+                    <h4>Chicken</h4>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
+                        alt="">
+                    <h4>Burger</h4>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png"
+                        alt="">
+                    <h4>Thali</h4>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png"
+                        alt="">
+                    <h4>Rolls</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Brands section -->
+    <section id="Brands">
+        <div class="sec">
+            <div class="heading">
+                <h1>Top Brands for you</h1>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="img">
+                        <img src="https://b.zmtcdn.com/data/brand_creatives/logos/bb30587d1148b6ab628a61945f64bf88_1625164768.png?output-format=webp"
+                            alt="">
+                    </div>
+                    <h5>McDonals's</h5>
+                    <p>18 min</p>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/brand_creatives/logos/1a985408ca7ad8fd097f2c47db9c5cb6_1611252699.png?output-format=webp"
+                        alt="">
+                    <h5>Domino's Pizza</h5>
+                    <p>25 min</p>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/brand_creatives/logos/6a11fd0f30c9fd9ceaff2f5b21f61d23_1617187857.png?output-format=webp"
+                        alt="">
+                    <h5>Burger King</h5>
+                    <p>21 min</p>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/brand_creatives/logos/22529ff52d41a4aa3b36ac1e7e0c0db3_1605099406.png?output-format=webp"
+                        alt="">
+                    <h5>Haldiram's</h5>
+                    <p>43 min</p>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/brand_creatives/logos/9302c59eca94abbee01aec9acf9305f6_1676471786.png?output-format=webp"
+                        alt="">
+                    <h5>Subway</h5>
+                    <p>16 min</p>
+                </div>
+                <div class="item">
+                    <img src="https://b.zmtcdn.com/data/brand_creatives/logos/466f8fc74274145f3b21795c3d21816d_1589433692.png?output-format=webp"
+                        alt="">
+                    <h5>KFC</h5>
+                    <p>14 min</p>
+                </div>
+                <div class="item">
+                    <img src="" alt="">
+                    <h5></h5>
+                    <p></p>
+                </div>
+                <div class="item">
+                    <img src="" alt="">
+                    <h5></h5>
+                    <p></p>
+                </div>
+
+            </div>
+    </section>
+
+    <!----------- section food in Delhi-------->
+    <section id="food_places">
+        <div class="sec_places">
+            <div class="heading">
+                <h1>Best food in Delhi NCR</h1>
+            </div>
+            <div class="sec4">
+                <div class="boxes">
+                    <div class="img_place">
+                        <img src="https://b.zmtcdn.com/data/pictures/3/19533983/802f5dd341089c3a12df4ba8cd7a5e93_o2_featured_v2.jpg?output-format=webp"
+                            alt="">
+                    </div>
+                    <div class="box">
+                        <div class="foodbox">
+                            <h4>Lords Of Shawarma</h4>
+                            <div class="rating">
+                                <p >3.9 </p>
+                                <!-- <i id="rate" color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="0.8rem" height="0.8rem" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 fauQLv"><title>star-fill</title><path d="M6.76 6.8l-6.38 0.96c-0.22 0.040-0.38 0.22-0.38 0.44 0 0.12 0.040 0.24 0.12 0.32v0l4.64 4.76-1.1 6.66c0 0.020 0 0.040 0 0.080 0 0.24 0.2 0.44 0.44 0.44 0.1 0 0.16-0.020 0.24-0.060v0l5.7-3.12 5.68 3.12c0.060 0.040 0.14 0.060 0.22 0.060 0.24 0 0.44-0.2 0.44-0.44 0-0.040 0-0.060 0-0.080v0l-1.1-6.66 4.64-4.76c0.080-0.080 0.12-0.2 0.12-0.32 0-0.22-0.16-0.4-0.36-0.44h-0.020l-6.38-0.96-2.96-6.18c-0.060-0.12-0.18-0.2-0.32-0.2s-0.26 0.080-0.32 0.2v0z"></path></svg></i> -->
+                            </div>
+                        </div>
+                        <div class="foodbox">
+                            <p>Shawarma,Momos,chinese..</p>
+                            <p>&#8377; 150</p>
+                        </div>
+                        <div class="foodbox">
+                            <p></p>
+                            <h5>40 min</h5>
+                        </div>
+                        <div class="deliveryrule">
+                            <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp"
+                                alt="">
+                        <p>Follows all Max safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="img_place">
+                        <img src="https://b.zmtcdn.com/data/pictures/chains/9/18391129/5236b57830d20119a2c087659eee12b4_o2_featured_v2.jpg?output-format=webp"
+                            alt="">
+                    </div>
+                    <div class="box">
+                        <div class="foodbox">
+                            <h4>Hudson Chopsticks</h4>
+                            <div class="rating">
+                                <p>4 .0</p>
+                            </div>
+                        </div>
+                        <div class="foodbox">
+                            <p>Chinese,Thai,...</p>
+                            <p>&#8377; 150 for one</p>
+                        </div>
+                        <div class="foodbox">
+                            <p></p>
+                            <h5>36 min</h5>
+                        </div>
+                        <div class="deliveryrule">
+                            <img src="https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png?output-format=webp"
+                                alt="">
+                            <p>Follows all Max safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="img_place">
+                        <img src="https://b.zmtcdn.com/data/pictures/chains/1/171/c1c31da8a68bf450be8d815fc3b22123_o2_featured_v2.jpg?output-format=webp"
+                            alt="">
+                    </div>
+                    <div class="box">
+                        <div class="foodbox">
+                            <h4>McDonald's</h4>
+                            <div class="rating">
+                                <p>4.3</p>
+                            </div>
+                        </div>
+                        <div class="foodbox">
+                            <p>Burger,wraps,....</p>
+                            <p>&#8377; 150 for one</p>
+                        </div>
+                        <div class="foodbox">
+                            <p></p>
+                            <h5>21 min</h5>
+                        </div>
+                        <div class="deliveryrule">
+                            <img src="https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png?output-format=webp"
+                                alt="">
+                            <p>Follows all Max safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="sec4">
+                <div class="boxes">
+                    <div class="img_place">
+                        <img src="https://b.zmtcdn.com/data/pictures/3/19533983/802f5dd341089c3a12df4ba8cd7a5e93_o2_featured_v2.jpg?output-format=webp"
+                            alt="">
+                    </div>
+                    <div class="box">
+                        <div class="foodbox">
+                            <h4>Lords Of Shawarma</h4>
+                            <div class="rating">
+                                <p >3.9 </p>
+                                <!-- <i id="rate" color="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="0.8rem" height="0.8rem" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 fauQLv"><title>star-fill</title><path d="M6.76 6.8l-6.38 0.96c-0.22 0.040-0.38 0.22-0.38 0.44 0 0.12 0.040 0.24 0.12 0.32v0l4.64 4.76-1.1 6.66c0 0.020 0 0.040 0 0.080 0 0.24 0.2 0.44 0.44 0.44 0.1 0 0.16-0.020 0.24-0.060v0l5.7-3.12 5.68 3.12c0.060 0.040 0.14 0.060 0.22 0.060 0.24 0 0.44-0.2 0.44-0.44 0-0.040 0-0.060 0-0.080v0l-1.1-6.66 4.64-4.76c0.080-0.080 0.12-0.2 0.12-0.32 0-0.22-0.16-0.4-0.36-0.44h-0.020l-6.38-0.96-2.96-6.18c-0.060-0.12-0.18-0.2-0.32-0.2s-0.26 0.080-0.32 0.2v0z"></path></svg></i> -->
+                            </div>
+                        </div>
+                        <div class="foodbox">
+                            <p>Shawarma,Momos,chinese..</p>
+                            <p>&#8377; 150</p>
+                        </div>
+                        <div class="foodbox">
+                            <p></p>
+                            <h5>40 min</h5>
+                        </div>
+                        <div class="deliveryrule">
+                            <img src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp"
+                                alt="">
+                        <p>Follows all Max safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="img_place">
+                        <img src="https://b.zmtcdn.com/data/pictures/chains/9/18391129/5236b57830d20119a2c087659eee12b4_o2_featured_v2.jpg?output-format=webp"
+                            alt="">
+                    </div>
+                    <div class="box">
+                        <div class="foodbox">
+                            <h4>Hudson Chopsticks</h4>
+                            <div class="rating">
+                                <p>4 .0</p>
+                            </div>
+                        </div>
+                        <div class="foodbox">
+                            <p>Chinese,Thai,...</p>
+                            <p>&#8377; 150 for one</p>
+                        </div>
+                        <div class="foodbox">
+                            <p></p>
+                            <h5>36 min</h5>
+                        </div>
+                        <div class="deliveryrule">
+                            <img src="https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png?output-format=webp"
+                                alt="">
+                            <p>Follows all Max safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="img_place">
+                        <img src="https://b.zmtcdn.com/data/pictures/chains/1/171/c1c31da8a68bf450be8d815fc3b22123_o2_featured_v2.jpg?output-format=webp"
+                            alt="">
+                    </div>
+                    <div class="box">
+                        <div class="foodbox">
+                            <h4>McDonald's</h4>
+                            <div class="rating">
+                                <p>4.3</p>
+                            </div>
+                        </div>
+                        <div class="foodbox">
+                            <p>Burger,wraps,....</p>
+                            <p>&#8377; 150 for one</p>
+                        </div>
+                        <div class="foodbox">
+                            <p></p>
+                            <h5>21 min</h5>
+                        </div>
+                        <div class="deliveryrule">
+                            <img src="https://b.zmtcdn.com/data/o2_assets/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png?output-format=webp"
+                                alt="">
+                            <p>Follows all Max safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------section Collections ---------- -->
+
+    <section id="Collections">
+        <div class="sec_Collections">
+            <div class="heading">
+                <h1>Collections</h1>
+            </div>
+            <div class="details">
+                <p id="f1">Explore curated lists of top restauraunts, cafes, pubs and bars in Delhi NCR, based on trends </p>
+                <div class="link_place">
+                    <p>All collections in delhi NCR</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#FF7E8B" width="12" height="12" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 ezrcri"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg>
+                </div>  
+            </div>
+            <div class="sec5">
+                <div class="boxes_places">
+                        <div class="box_img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR95KnaFQUA9Nwro0JYnVOUaW4hDYTWrK-VA0CdUAor3RpqjK1O" alt="">
+                        </div>
+                         <p id="name">10 Unique Dining</p>
+                         <div class="pic">
+                             <p>10 places</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg>
+                         </div>
+                </div>
+                <div class="boxes_places">
+                        <div class="box_img">
+                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQncwSYC9BvbKamWzNIepdFnQ_PBO_vaNg_mk-ktM1mbx0bRiwh" alt="">
+                        </div>
+                         <p id="name">21 Best Instagram </p>
+                         <div class="pic">
+                             <p>20 places</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg>
+                         </div>
+                </div>
+                <div class="boxes_places">
+                        <div class="box_img">
+                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFY-LDz55X3_S7Tc8m4xQPJAwg6qSGd0y48mgMYp5lfQbkIWV_" alt="">
+                        </div>
+                         <p id="name">21 Romantic Dining</p>
+                         <div class="pic">
+                             <p>19 places</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg>
+                         </div>
+                </div>
+                <div class="boxes_places">
+                        <div class="box_img">
+                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8OGMHm3NN5UPfGe8nkwpFxDGmAg7A51_Y7fpJyVxpoYb0q2oS" alt="">
+                        </div>
+                         <p id="name">10 Celeb-loving</p>
+                         <div class="pic">
+                             <p>10 places</p>
+                             <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 gvsUip"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg>
+                         </div>
+                </div>
+                
+            </div>
+            
+        </div>
+       
+    </section>
+    
+    <!------------- section popular localities--------------- -->
+    <section id="popularlocalities">
+        <div class="sec6">
+            <div class="heading">
+                <h1>Popular localities in and around <bold>Delhi NCR</bold></h1>
+            </div>
+            <div class="placebox">
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Cannaught place</p>
+                        <p class="noplaces">257 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="17" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Sector 29</p>
+                        <p class="noplaces">147 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Sector 18,Noida</p>
+                        <p class="noplaces">209 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Rajouri Garden</p>
+                        <p class="noplaces">315 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Saket</p>
+                        <p class="noplaces">324 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">DLF Cyber City</p>
+                        <p class="noplaces">163 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Golf Course Road</p>
+                        <p class="noplaces">157 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">DLF Phase 4</p>
+                        <p class="noplaces">222 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Vasant Kunj</p>
+                        <p class="noplaces">302 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Greater Kailash</p>
+                        <p class="noplaces">93 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+                <div class="placer">
+                    <div class="nameplace">
+                        <p class="nameofplace">Janpath</p>
+                        <p class="noplaces">46 places</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="15" height="15" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 jKmKoK"><title>chevron-right</title><path d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------- Explore more options near me---------- -->
+    <section class="exploremore">
+        <div class="sec7">
+            <div class="heading">
+                <h1>Explore options near me</h1>
+            </div>
+            <a href="#" class="exploreplace">
+                    <p>Popular cuisines near me</p>
+                    <i class="sc-rbbb40-1 iFnyeo sc-ixe81d-3 ipHUyL" color="#1C1C1C" tabindex="-1" aria-hidden="true" size="20"><svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="20" height="20" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iRDDBk"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg></i>
+            </a>
+            <a href="#" class="exploreplace">
+                    <p>Popular restaurant types near me</p>
+                    <i class="sc-rbbb40-1 iFnyeo sc-ixe81d-3 ipHUyL" color="#1C1C1C" tabindex="-1" aria-hidden="true" size="20"><svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="20" height="20" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iRDDBk"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg></i>
+            </a>
+            <a href="#" class="exploreplace">
+                    <p>Top Restaurant Chains</p>
+                    <i class="sc-rbbb40-1 iFnyeo sc-ixe81d-3 ipHUyL" color="#1C1C1C" tabindex="-1" aria-hidden="true" size="20"><svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="20" height="20" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iRDDBk"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg></i>
+            </a>
+            <a href="#" class="exploreplace">
+                    <p>Cities We Deliver To</p>
+                    <i class="sc-rbbb40-1 iFnyeo sc-ixe81d-3 ipHUyL" color="#1C1C1C" tabindex="-1" aria-hidden="true" size="20"><svg xmlns="http://www.w3.org/2000/svg" fill="#1C1C1C" width="20" height="20" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 iRDDBk"><title>chevron-down</title><path d="M4.48 7.38c0.28-0.28 0.76-0.28 1.060 0l4.46 4.48 4.48-4.48c0.28-0.28 0.76-0.28 1.060 0s0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0l-5-5c-0.3-0.28-0.3-0.76 0-1.060z"></path></svg></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ------------------footer-------------------- -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Common */
+/* every section heading */
+.heading h1{
+    padding: 25px 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.sec{
+    height: 350px;
+    width: 75%;
+    margin: auto;
+    
+}
+
+ /* section and differences */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#c1{
+    border-bottom: 0.2rem solid red;
+   
+}
+
+#c1 a{
+    color: red;
+}
+
+#c1 div{
+    background-color: rgb(252, 238, 192);
+}
+
+
+/* section2  */
+#sec2{
+    display: block;
+    box-sizing: inherit;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.sec2_box{
+    display: flex;
+    align-items: left;
+    width: 76%;
+    margin: auto;
+    height: 100px;
+    align-items: center;
+    position:sticky;
+    z-index: 2;
+    transition: top 0.5s ease-in-out 0s;
+}
+
+.sec2_button{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid rgb(212, 211, 211);
+    padding: 3px ;
+    margin: 6px;
+    height: 35px;
+    width:fit-content;
+    justify-content: center;
+    border-radius: 10px ;
+    
+}
+
+#s2_1 img{
+    width: 35%;
+    height:70%;
+    padding: 2px;
+    margin: 2px;
+}
+
+.sec2_button p{
+    color: rgba(86, 86, 86, 0.486);
+    margin: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+}
+
+#sec2_2 img{
+    width: 20%;
+    height:47%;
+    padding: 2px;
+    margin: 2px;
+    color: rgba(229, 229, 229, 0.486);
+}
+
+
+/* section 3 : food items section */
+#food_sec{
+    background-color: rgb(249, 249, 249);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.items{
+    display: flex;
+    justify-content: left;
+}
+
+.item{
+    height:auto;
+    width:auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    object-fit: fill;
+    transition: opacity 0.25s ease-out 0s;
+    animation: 1.5s linear 0s infinite normal forwards running jCOzbu;
+    box-sizing: border-box;
+}
+
+/* .img{
+    height: 150px;
+    width: 150px;
+    
+} */
+
+.item img{
+    height: 150px;
+    width: 150px;
+    /* height: 100%;
+    width: 100%; */
+    border-radius: 50%;
+    margin:0px 9px;
+    background-color: bisque;
+    margin: 10px;
+    border:1px solid rgb(237, 237, 237);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
+    object-fit: cover;
+    
+}
+
+.item h4{
+    font-size: 20px;
+}
+
+/* section 4 Brands */
+
+#Brands{
+    font-family: 'Raleway', sans-serif;
+}
+
+.item h5{
+    font-size: 16px;
+    margin: 2px;
+}
+
+.item p{
+    font-size: 14px;
+    margin: 3px;
+    padding: 2px;
+}
+
+/* section food places sec-4 */
+
+#food_places{
+    font-family: 'Raleway', sans-serif;
+} 
+
+.sec_places{
+    width: 75%;
+    margin: auto;
+
+}
+
+.sec4{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.boxes{
+    width: 31%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 14px;
+    /* background-color: rgb(32, 133, 57); */
+}
+
+.boxes:hover{
+    box-shadow: 0px 2px 8px rgba(231, 228, 228, 0.545);
+    border: 0.5px solid rgb(244, 244, 244);
+    /* width: 40%; */
+}
+
+.img_place{
+    width: 100%;
+    height: 22rem;
+}
+
+.img_place img{
+    width: 100%;
+    height: 100%;
+    border-radius:13px ;
+    object-fit: cover;
+}
+
+.box{
+    margin-top: 3px;
+}
+
+.foodbox{
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px;
+    
+}
+
+.foodbox p{
+    color: grey;
+    font-size: 15px;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    
+    
+}
+
+.rating p{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 1px 6px;
+    padding-bottom: 2px;
+    /* height: 1rem; */
+}
+
+.deliveryrule{
+    border-top: 0.3px solid rgb(224, 224, 224);
+    padding: 2px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.deliveryrule img{
+    padding: 4px;
+    width: 3.5rem;
+}
+
+.deliveryrule p{
+    font-size: 12px;
+}
+
+
+/* Collections Section -------------------------*/
+
+#Collections{
+    background-color: rgb(249, 249, 249);
+}
+
+.sec_Collections{
+    width: 75%;
+    margin: auto;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px ;
+}
+
+#f1{
+    font-size: 1.2rem;
+}
+
+.link_place{
+    display: flex;
+    align-items: center;
+    color: red;
+    font-size: 1rem;
+}
+
+.link_place svg{
+    margin: 0.8rem;
+}
+
+.sec5{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    /* background-color: aqua; */
+}
+
+.boxes_places{
+    width: 25%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 14px;
+    /* background-color: aquamarine; */
+    
+}
+
+.box_img{
+    width: 100%;
+    height: 22rem;
+    border-radius: 13px;
+}
+
+.box_img img{
+    border-radius: 13px;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+}
+
+#name{
+    position: relative;
+    top: -4rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 8px;
+    margin: 2px;
+    
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top:-4rem ;
+    
+
+}
+
+.pic p{
+    color: white;
+    font-size: 1rem;
+    padding-left: 0.7rem;
+    
+}
+
+.pic svg{
+    margin: 4px;
+}
+
+
+/* popularlocalities section---- */
+
+#popularlocalities{
+    font-family: 'Raleway', sans-serif;
+}
+
+.sec6{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+.placebox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.placer{
+    width: 31.8%;
+    border: 2px solid rgb(238, 238, 238);
+    box-shadow: 1px 1px 4px rgb(243, 243, 243);
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: normal;
+    border-radius: 10px;
+    height: 5rem;
+}
+
+.nameplace{
+    padding: 2px;
+    margin: 3px;
+}
+
+.placer svg{
+    font-size: 1.6rem;
+}
+
+.nameofplace{
+    word-wrap: normal;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2px;
+    /* color: rgb(60, 60, 60); */
+}
+
+.noplaces{
+    padding: 2px;
+}
+
+/* Explore more options------ */
+
+.exploremore{
+    background-color: rgb(251, 251, 251);
+}
+
+.sec7{
+    width: 75%;
+    margin: auto;
+}
+
+.exploreplace{
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid rgb(227, 227, 227) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    border-radius: 13px;
+    margin: 2rem;
+
+}
+
+.exploreplace p{
+    color: black;
+    font-size: 1.2rem;
+    padding: 3px;
+    margin: 3px 2rem;
+}
+
+.exploreplace i{
+    padding-right: 1.5rem;
+}
+
+/* footer------------------------ */

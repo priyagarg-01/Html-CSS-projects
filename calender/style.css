@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero{
+    width: 100%;
+    min-width: 100vh;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1d0000,#20205b);
+}
+
+.calender{
+    width: 300px;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.calender p{
+    /* color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.left , .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.right{
+    background: red;
+    overflow: hidden;
+    width: 42%;
+    color: white;
+}
+
+.left{
+    width: 58%;
+}
+
+#date{
+    font-size: 4rem;
+    font-weight: 600;
+}

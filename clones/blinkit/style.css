@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav,.sec1,.sec2,.sec3,.cart button{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.sec1{
+    justify-self: unset;
+}
+
+.blogo{
+    margin:0.4rem 1rem ;
+}
+
+.delivery{
+    margin: 0 1rem;
+}
+
+.sec2{
+    width: 40rem;
+    background-color: rgb(243, 243, 243);
+    height: 3rem;
+    border-radius: 13px;
+}
+
+.search{
+    display: flex;
+    width: 3rem;
+}
+.search svg{
+    margin: 0.8rem 1rem;
+}
+
+.sec2 input {
+    width: 15rem;
+    outline: none;
+    border: none;
+    background-color: rgb(243, 243, 243);;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    
+}
+
+.login, .cart button{
+    justify-content: center;
+     align-items: center;
+}
+
+.login{
+    width: 5rem;
+    margin: 2rem;
+}
+
+.login p{
+    font-size: 1.3rem;
+}
+
+.cart{
+    margin: 1rem 2rem;
+    
+}
+
+.cart button{
+    height: 3rem;
+    border-radius: 10px;
+    background-color: green;
+    border: 0;
+    color: white;
+    width: 7rem;
+}
